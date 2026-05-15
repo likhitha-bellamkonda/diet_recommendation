@@ -10,8 +10,8 @@ import streamlit as st
 import pickle
 
 # load model
-model = pickle.load(open("diet_recommended_prediction_model.pkl", "rb"))
-Scaler =pickle.load(open("scaler.pkl", "rb"))
+model = pickle.load(open("model_diet.pkl", "rb"))
+Scaler =pickle.load(open("scaler_diet.pkl", "rb"))
 st.markdown("""
 <style>
 
