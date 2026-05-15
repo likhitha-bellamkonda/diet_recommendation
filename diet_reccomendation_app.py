@@ -14,12 +14,20 @@ model = pickle.load(open("diet_recommended_prediction_model.pkl", "rb"))
 Scaler =pickle.load(open("scaler.pkl", "rb"))
 st.markdown("""
 <style>
+
+label {
+    color: black !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
 .stApp {
     background-color: #F0F8FF;
     border: 5px solid #1E90FF;
     border-radius: 20px;
     padding: 20px;
 }
+
 </style>
 """, unsafe_allow_html=True)
 col1, col2 = st.columns([3,1])
