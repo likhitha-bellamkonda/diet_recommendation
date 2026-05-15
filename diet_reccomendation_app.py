@@ -1,5 +1,5 @@
 import pickle
-file_path = "diet_recommended_prediction_model.pkl"
+file_path = "model_diet.pkl"
 with open(file_path, "rb") as file:
     model = pickle.load(file)
 print(model)
