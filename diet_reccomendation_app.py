@@ -33,22 +33,26 @@ with col1:
 with col2:
     st.image("img.png", width=120)
 # user inputs
-age = st.number_input("Age")
-height = st.number_input("Height")
-weight = st.number_input("Weight")
+# user inputs
+
+age = st.number_input("Age", min_value=1, max_value=100)
+
+height = st.number_input("Height (cm)", min_value=50, max_value=250)
+
+weight = st.number_input("Weight (kg)", min_value=10, max_value=200)
 
 gender = st.selectbox("Gender", ["Male", "Female"])
 
-bmi = st.number_input("BMI")
+bmi = st.number_input("BMI", min_value=5.0, max_value=60.0)
 
 activity = st.selectbox(
     "Activity Level",
     ["Low", "Medium", "High"]
 )
 
-sugar_level = st.number_input("Sugar Level")
+sugar_level = st.number_input("Sugar Level", min_value=50, max_value=300)
 
-cholestrol = st.number_input("Cholestrol")
+cholestrol = st.number_input("Cholesterol", min_value=50, max_value=400)
 
 goal = st.selectbox(
     "Goal",
