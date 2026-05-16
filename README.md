@@ -49,6 +49,7 @@ diet_recommendation_system/
 ├── scaler.pkl
 ├── README.md
 └── requirements.txt
+
 ----
 
 ### 🧠 Input Features
