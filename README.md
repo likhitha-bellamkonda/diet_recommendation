@@ -110,8 +110,11 @@ streamlit run app.py
   This project is deployed using Streamlit Cloud.
 ---
 ## 🔗 Connect With Me
-LinkedIn: www.linkedin.com/in/likhitha-ds
-GitHub: https://github.com/likhitha-bellamkonda
+
+## LinkedIn: www.linkedin.com/in/likhitha-ds
+
+## GitHub: https://github.com/likhitha-bellamkonda
+
 --
 ## 👩‍💻 Author
 Likhitha Bellamkonda
