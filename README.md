@@ -44,10 +44,15 @@ The project uses Machine Learning classification techniques to predict the appro
 
 diet_recommendation_system/
 │
+
 ├── app.py
+
 ├── model.pkl
+
 ├── scaler.pkl
+
 ├── README.md
+
 └── requirements.txt
 
 ----
